@@ -11,7 +11,6 @@ import "./CalendarioFeriados.css";
 const CalendarioFeriados = () => {
   const [feriados, setFeriados] = useState([]);
   const [proximoFeriado, setProximoFeriado] = useState(null);
-  const [contagemRegressiva, setContagemRegressiva] = useState(null);
   const [erro, setErro] = useState(false);
   const [carregando, setCarregando] = useState(true);
 
@@ -70,7 +69,7 @@ const CalendarioFeriados = () => {
           </>
         )}
       </div>
-      <footer>
+      <footer className="mt-3">
         <p>
           Desenvolvido por <a href="https://github.com/HenryyDev">Henry dev</a>{" "}
           &copy;

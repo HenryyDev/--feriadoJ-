@@ -24,7 +24,7 @@ const Calendario = ({ feriados, proximoFeriado, anoAtual }) => {
   };
 
   return (
-    <div className="wrap">
+    <div className="wrap mb-5">
       <Calendar
         value={
           proximoFeriado
