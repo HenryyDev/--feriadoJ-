@@ -68,7 +68,7 @@ footer {
   padding: 10px;
   height: 320px;
   width: auto;
-  transition: 0.3s;
+  transition: transform 0.3s ease;
   img {
     width: 100%;
   }
@@ -87,6 +87,7 @@ footer {
 .card:hover {
   background-color: var(--header-and-title);
   cursor: pointer;
+  transform: scale(0.95);
 }
 .feriado {
   background-color: #f44336;

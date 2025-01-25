@@ -72,7 +72,8 @@ const CalendarioFeriados = () => {
       </div>
       <footer>
         <p>
-          Desenvolvido por <a href="">Henry dev</a> &copy;
+          Desenvolvido por <a href="https://github.com/HenryyDev">Henry dev</a>{" "}
+          &copy;
         </p>
       </footer>
     </>
