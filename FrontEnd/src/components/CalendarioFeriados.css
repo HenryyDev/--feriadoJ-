@@ -27,7 +27,19 @@ header {
     height: 60px;
   }
 }
-
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--background-secondary);
+  background-color: var(--header-and-title);
+  height: 100px;
+  width: 100%;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
 .info {
   display: flex;
   align-items: center;
@@ -56,6 +68,7 @@ header {
   padding: 10px;
   height: 320px;
   width: auto;
+  transition: 0.3s;
   img {
     width: 100%;
   }
@@ -70,6 +83,10 @@ header {
     flex-direction: column;
     justify-content: space-between;
   }
+}
+.card:hover {
+  background-color: var(--header-and-title);
+  cursor: pointer;
 }
 .feriado {
   background-color: #f44336;

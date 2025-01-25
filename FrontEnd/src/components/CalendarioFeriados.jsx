@@ -70,6 +70,11 @@ const CalendarioFeriados = () => {
           </>
         )}
       </div>
+      <footer>
+        <p>
+          Desenvolvido por <a href="">Henry dev</a> &copy;
+        </p>
+      </footer>
     </>
   );
 };
