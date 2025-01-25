@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --header-color: #ffff;
+  --background-secondary: #f2f2f2;
+  --secondary-text: #b0b0b0;
+  --header-and-title: #005f73;
+  --primary-text: #333333;
+  --body-color: #f2f2f2;
+}
+html,
+body {
+  background-color: var(--body-color);
+}
+header {
+  display: flex;
+  align-items: center;
+  color: var(--header-color);
+  font-weight: bold;
+  padding: 20px;
+  height: auto;
+  background-color: var(--header-and-title);
+  img {
+    height: 60px;
+  }
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2,
+  p {
+    color: var(--secondary-text);
+  }
+}
+.contagem-regressiva {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f44336;
+  margin-top: 10px;
+}
+.wrap {
+  height: 300px;
+}
+.all-feriados {
+  ul {
+    padding: 0;
+  }
+}
+.card {
+  padding: 10px;
+  height: 320px;
+  width: auto;
+  img {
+    width: 100%;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    margin-bottom: 5px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.feriado {
+  background-color: #f44336;
+  color: #000;
+}
+.btn.btn-primary {
+  background-color: #f44336;
+  border: none;
+  transition: 0.3s;
+}
+.btn.btn-primary:hover {
+  background-color: #00a8e8;
+}
+
+@media (max-width: 575px) {
+  .card {
+    height: auto;
+  }
+}

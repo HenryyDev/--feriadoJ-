@@ -1,0 +1,105 @@
+Design para o Site de Feriados
+1. Estrutura Principal
+Cabeçalho (Header):
+Logo (ex.: "Próximo Feriado").
+Menu simples com links para:
+Início (Página principal).
+Lista de Feriados (Todos os feriados do ano).
+Sobre (Informações sobre o site).
+Seção Hero (Destaque):
+Um fundo animado ou com um tema relacionado ao próximo feriado (ex.: bandeiras do país, árvores para Natal, etc.).
+Um grande contador regressivo destacando os dias, horas, minutos e segundos restantes para o próximo feriado.
+Texto explicativo como: "O próximo feriado será [Nome do Feriado], no dia [Data]. Faltam [X dias]!"
+2. Corpo do Site
+Informações do Próximo Feriado:
+
+Nome do feriado.
+Data.
+Breve descrição (história, importância, tradições).
+Categoria (nacional, estadual, religioso).
+Um botão/link para ver mais detalhes.
+Seção de Feriados Futuros:
+
+Um carrossel horizontal ou uma tabela mostrando os próximos feriados (nome, data e tipo).
+Mapa Interativo (opcional):
+
+Mostre os feriados por região/estado do país.
+3. Rodapé (Footer):
+Links para redes sociais.
+Créditos do desenvolvedor.
+Um campo de busca para consultar feriados específicos (por data ou nome).
+Estilo Visual
+Paleta de Cores:
+
+Tons neutros como branco, cinza ou azul para a base.
+Cores vibrantes para destacar o próximo feriado (ex.: vermelho, verde, dourado, dependendo do feriado).
+Tipografia:
+
+Fonte moderna e amigável, como Inter ou Poppins.
+Destaque nos títulos com tamanhos grandes.
+Iconografia:
+
+Ícones temáticos para feriados (ex.: árvore de Natal, fogos de artifício, bandeira).
+Animações:
+
+Entrada suave para os elementos (usando bibliotecas como Framer Motion).
+Fundo animado, como partículas ou gradiente sutil em movimento.
+Funcionalidades
+Exibição dinâmica do próximo feriado com base na data atual.
+Contador regressivo atualizado em tempo real.
+Responsividade para dispositivos móveis.
+Um formulário para os usuários sugerirem novos feriados ou darem feedback.
+
+ Paleta de Cores
+Base Neutra: Para o fundo, textos e a estrutura geral.
+
+Branco Neve (#FFFFFF): Para áreas de fundo e blocos de conteúdo principais. Oferece um visual clean e moderno.
+Cinza Claro (#F2F2F2): Para o fundo de áreas secundárias, como o rodapé e outras seções secundárias, proporcionando contraste suave com o branco.
+Cinza Médio (#B0B0B0): Para textos secundários e detalhes como bordas ou divisores.
+Cor Primária: Para a identidade visual do site e destaque de elementos.
+
+Azul Claro (#00A8E8): Para links, botões e elementos interativos, trazendo uma sensação de frescor e confiança.
+Azul Escuro (#005F73): Para cabeçalhos e títulos. Um tom mais profundo que combina bem com o azul claro e é suave para os olhos.
+Cores de Destaque: Para destacar o próximo feriado e criar um visual vibrante.
+
+Vermelho Vivo (#F44336): Para destacar o próximo feriado de forma chamativa. Pode ser usado no contador regressivo e em botões importantes.
+Dourado (#FFB300): Ideal para destacar feriados especiais como o Natal e Ano Novo, proporcionando um toque de elegância e celebração.
+Cores Secundárias: Para complementos e ícones temáticos.
+
+Verde Natal (#4CAF50): Para feriados como o Natal ou feriados religiosos que envolvem celebrações ao ar livre.
+Laranja (#FF9800): Para elementos de alerta ou chamadas para ações, como botões de "Ver mais" ou "Sugerir feriado".
+Neutro Escuro:
+
+Cinza Escuro (#333333): Para textos principais. Essa cor oferece boa legibilidade sem ser excessivamente escura.
+Aplicação das Cores:
+Cabeçalho (Header):
+Fundo: Azul Escuro (#005F73)
+Texto do logo: Branco (#FFFFFF) ou Dourado (#FFB300) para dar destaque.
+Links do Menu: Azul Claro (#00A8E8) com efeito hover em Vermelho Vivo (#F44336).
+Seção Hero (Destaque):
+Fundo: Fundo animado ou com gradientes suaves, usando tons de Azul Claro (#00A8E8) com Azul Escuro (#005F73) e efeitos sutis de partículas.
+Texto: Branco (#FFFFFF) com destaque para o contador em Vermelho Vivo (#F44336), para chamar atenção.
+Botões: Vermelho Vivo (#F44336) com texto Branco (#FFFFFF).
+Informações do Próximo Feriado:
+Fundo: Cinza Claro (#F2F2F2).
+Título: Azul Escuro (#005F73).
+Texto: Cinza Escuro (#333333).
+Botão "Ver mais": Vermelho Vivo (#F44336).
+Seção de Feriados Futuros:
+Fundo: Branco (#FFFFFF) ou Cinza Claro (#F2F2F2) para dar contraste com as informações de feriados.
+Carrossel ou Tabela: Linhas de destaque em Vermelho Vivo (#F44336) para o próximo feriado e Dourado (#FFB300) para feriados especiais.
+Rodapé (Footer):
+Fundo: Azul Escuro (#005F73) para manter uma base sólida.
+Texto: Branco (#FFFFFF), com links em Azul Claro (#00A8E8).
+Ícones sociais: Usar Vermelho Vivo (#F44336) para hover ou destaque.
+Elementos Interativos:
+Botões de Ação: Vermelho Vivo (#F44336) com transições suaves de cor ao passar o mouse.
+Links: Azul Claro (#00A8E8) com hover em Dourado (#FFB300).
+Mapa Interativo (se necessário):
+Marcação de Regiões/Estados: Utilizar um verde suave (#4CAF50) para destacar feriados relacionados a eventos ou feriados estaduais.
+Exemplo de Gradiente de Fundo Animado:
+Para um fundo sutil animado, considere uma transição entre Azul Claro (#00A8E8) e Azul Escuro (#005F73), com partículas de Dourado (#FFB300) para dar um toque festivo, dependendo do feriado destacado.
+Tipografia e Iconografia:
+Fontes: Use fontes como Poppins para títulos e Inter para corpo de texto, mantendo uma tipografia moderna e amigável.
+Ícones Temáticos: Ícones de árvores de Natal, fogos de artifício, bandeiras, ou relógios podem ser aplicados em botões ou seções interativas.
+Com essa paleta, o design será equilibrado, com cores suaves para facilitar a navegação, e detalhes vibrantes para dar destaque ao próximo feriado, mantendo o site visualmente atraente e informativo.
