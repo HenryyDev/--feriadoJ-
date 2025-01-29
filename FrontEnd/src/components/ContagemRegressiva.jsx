@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import styles from "./style/ContagemRegressiva.module.css";
 const ContagemRegressiva = ({ proximoFeriado }) => {
   const [contagemRegressiva, setContagemRegressiva] = useState(null);
 
@@ -35,7 +35,7 @@ const ContagemRegressiva = ({ proximoFeriado }) => {
   }, [proximoFeriado]);
 
   return (
-    <div className="contagem-regressiva">
+    <div className={styles.contagem_regressiva}>
       {contagemRegressiva && (
         <div>
           <p>

@@ -1,0 +1,119 @@
+.all-feriados {
+  height: 400px auto;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  padding: 10px;
+  height: 320px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  background-color: var(--header-and-title);
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.feriado {
+  background-color: #f44336;
+  color: #000;
+}
+
+.btn.btn-primary {
+  background-color: #f44336;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn.btn-primary:hover {
+  background-color: #00a8e8;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: -50px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-prev,
+.custom-next {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    left: -10px;
+  }
+
+  .carousel-control-next {
+    right: -10px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px;
+    height: 40px;
+  }
+
+  .custom-prev,
+  .custom-next {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .card {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .react-calendar {
+    width: 90%;
+  }
+}

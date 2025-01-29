@@ -6,7 +6,7 @@ import ProximoFeriado from "./ProximoFeriado";
 import ContagemRegressiva from "./ContagemRegressiva";
 import FeriadosList from "./FeriadoList";
 import logo from "../assets/feriados.png";
-import "./CalendarioFeriados.css";
+import "./style/CalendarioFeriados.css";
 
 const CalendarioFeriados = () => {
   const [feriados, setFeriados] = useState([]);
@@ -50,7 +50,9 @@ const CalendarioFeriados = () => {
         <p className="m-0 mx-2">É feriado já?</p>
       </header>
       <div className="container d-flex flex-column align-items-center">
-        <h1>Calendário de Feriados Nacionais - {anoAtual}</h1>
+        <h1 className="text-center">
+          Calendário de Feriados Nacionais - {anoAtual}
+        </h1>
 
         {carregando ? (
           <p>Carregando...</p>

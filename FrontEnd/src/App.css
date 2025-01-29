@@ -2,3 +2,69 @@
 * {
   font-family: "Poppins", serif;
 }
+/* 💫 Transição Suave */
+.app-container {
+  transition: opacity 0.8s ease-in-out;
+}
+.loading {
+  opacity: 1;
+}
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s 0.8s, opacity 0.8s;
+}
+
+/* 🎡 Spinner estilizado */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #005f73;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  font-size: 18px;
+  margin-top: 15px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.content {
+  text-align: center;
+  font-size: 24px;
+  padding: 50px;
+}
+.btn.btn_primary {
+  background-color: #f44336;
+  border: none;
+  transition: 0.3s;
+}

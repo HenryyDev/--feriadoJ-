@@ -1,7 +1,7 @@
 import { Carousel, Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { obterImagemParaFeriado } from "./utils/feriados";
-
+import "./style/FeriadoList.css";
 const FeriadosList = ({ feriados }) => {
   // Função para determinar o número de cards por slide baseado na largura da tela
   const getCardsPerSlide = (width) => {

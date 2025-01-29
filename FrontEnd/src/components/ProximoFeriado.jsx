@@ -1,6 +1,8 @@
+import styles from "./style/ProximoFeriado.module.css";
+
 const ProximoFeriado = ({ proximoFeriado }) => {
   return (
-    <div className="info">
+    <div className={styles.info}>
       <p>O próximo Feriado&nbsp;</p>
       {proximoFeriado ? (
         <p>
